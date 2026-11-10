@@ -1,0 +1,20 @@
+[
+    {
+        "Hostname": "switch_3_101",
+        "IP Address": "10.32.20.101",
+        "Device Type": "switch",
+        "Location": "atl"
+    },
+    {
+        "Hostname": "switch_3_102",
+        "IP Address": "10.32.20.102",
+        "Device Type": "switch",
+        "Location": "atl"
+    },
+    {
+        "Hostname": "router_atl_1",
+        "IP Address": "10.32.21.5",
+        "Device Type": "router",
+        "Location": "atl"
+    }
+]
