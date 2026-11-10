@@ -1,4 +1,5 @@
 **Network Device Inventory**
+
 A Python command-line application for managing network device inventory.
 
 **Features**
