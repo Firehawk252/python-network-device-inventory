@@ -1,32 +1,49 @@
-**Network Device Inventory**
+# Network Device Inventory
 
 A Python command-line application for managing network device inventory.
 
-**Features**
+## Features
 
-Add network devices
-View registered devices
-Search devices by hostname
-Update device information
-Remove devices
-Save and load inventory
-data
+- Add network devices
+- View devices
+  - Filter devices by type
+  - Display all devices
+- Search devices by hostname or IP address
+- Update device information
+- Remove devices
+- Save and load inventory using JSON
+  - Automatically create inventory backups
+  - Recover inventory from backup if the primary file is missing or corrupted
 
-**Technologies**
+## Technologies
 
-Python
-Git/GitHub
+- Python
+- JSON
+- Git/GitHub
 
-**Concepts Demonstrated**
+## Concepts Demonstrated
 
-Variable and data types
-Conditional statements and loops
-Lists, dictionaries, and tuples
-Functions
-Object-oriented programming
-Exception handling
-File handling
+- Variables and data types
+- Conditional statements and loops
+- Lists and dictionaries
+- Functions
+- Exception handling
+- File handling
+- JSON serialization and deserialization
+- Data validation
+- Backup and recovery
 
-**Usage**
+## Project Structure
+- `main.py` - Main application containing the inventory management functions and menu
+- `devices.json` - Stores network device inventory data
+- `devices_backup.json` - Backup copy of the inventory data
 
-Instructions TBD
+## Usage
+
+- Clone the repository:
+  - `git clone https://github.com/Firehawk252/python-network-device-inventory.git`
+- Navigate to the project directory:
+  - `cd python-network-device-inventory`
+- Run the application:
+  - `python main.py`
+- Follow the command-line menu to manage your network device inventory
